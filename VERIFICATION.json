@@ -1,0 +1,50 @@
+{
+  "filename": "flipper-z-f7-update-hybridus-ui-0.7-095e-preserve.tgz",
+  "size": 684179,
+  "sha256": "64732d4e82856799da12e7fcd4735452d3c3dfd92d944543f666d64c84af718b",
+  "files": {
+    "firmware.dfu": {
+      "size": 879505,
+      "sha256": "5d6d8134bbab4272e00ff8a79ea5f8f644ca4a705c4a09fbd7b3f49f7cdaeda2"
+    },
+    "update.fuf": {
+      "size": 353,
+      "sha256": "48318f04045077a01d9f458157c5500e91925ea688d94bf6ef348e22eb80e9ed"
+    },
+    "updater.bin": {
+      "size": 119941,
+      "sha256": "1f5c268c7d401da68cf4b6e23fb4759739d67d598182bea4a452ec6ab7e16e61"
+    }
+  },
+  "manifest": "Filetype: Flipper firmware upgrade configuration\nVersion: 2\nInfo: hybridus-ui-0.7-095e-preserve\nTarget: 7\nLoader: updater.bin\n# little-endian hex!\nLoader CRC: 10 CF C6 70\nFirmware: firmware.dfu\nRadio: \nRadio address: 00 00 00 00\nRadio version: 00 00 00 00 00 00\nRadio CRC: 00 00 00 00\nResources: \nOB reference: \nOB mask: \nOB write mask: \nSplashscreen: \n",
+  "dfu_end": "0x80d6a5c",
+  "api": "88.26",
+  "build_base": "9c6327764c18fc8376b5941aa8bde79fe681fe8f",
+  "install_mode": "upstream updater_minpackage with exact opt-in preserve updater",
+  "hardware_tested": false,
+  "host_verified": {
+    "animations": {
+      "Bluetooth": [
+        2,
+        2
+      ],
+      "Games": [
+        4,
+        6
+      ],
+      "Media": [
+        4,
+        4
+      ],
+      "Scripts": [
+        2,
+        2
+      ]
+    },
+    "delta_from_062": "2 Scripts PNGs, slider gap geometry, private Mute dedup helper/call, preserve tag only",
+    "real_pixel_gap_columns": 2,
+    "scripts_stock_file_background": true,
+    "real_saved_struct_io_spies": "missing/valid/changed/corrupt/read-failure/partial-write-retry/external-change",
+    "all_regression_tests_passed": true
+  }
+}
