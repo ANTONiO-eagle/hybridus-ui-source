@@ -1,0 +1,26 @@
+{
+  "kind": "hybridus-full-source-snapshot",
+  "generated_at": "2026-11-20",
+  "base_repository": "https://github.com/DarkFlippers/unleashed-firmware.git",
+  "base_ref": "unlshd-095",
+  "base_commit": "9c6327764c18fc8376b5941aa8bde79fe681fe8f",
+  "api": "88.26",
+  "patch": "hybridus-ui-0.7-095e-preserve.patch",
+  "snapshot": "hybridus-ui-0.7-full-source-snapshot-095e.tgz",
+  "snapshot_sha256": "3aeee92ce9f9b70ac8172e427191b744382e189496f5eb90b840c0167b7fa65f",
+  "snapshot_size_bytes": 22025208,
+  "snapshot_file_count": 5028,
+  "submodules": "Pinned in SUBMODULES-PINNED.txt; build.sh fetches them from the pinned Git checkout. The archive is not a Git checkout.",
+  "build_entrypoint": "build.sh",
+  "device_flash": false,
+  "hardware_tested": false,
+  "api_88_27_source_claim": false,
+  "vgm_included": false,
+  "ducky_lang_included": false,
+  "notes": [
+    "This is a provenance-preserving base-plus-patch snapshot, not a reconstruction of the installed API 88.27 LTO image.",
+    "Excludes Hybridus VGM Display firmware/source, the VGM settings FAP, DUCKY_LANG changes, and any flashable firmware artifacts. Unchanged upstream source, resources and test fixtures are retained."
+  ],
+  "change_notice": "hybridus-base/HYBRIDUS-CHANGES.md",
+  "ai_assisted": true
+}
