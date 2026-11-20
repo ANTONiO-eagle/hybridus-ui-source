@@ -15,7 +15,7 @@ The patch also includes a small getter helper and the required source/resource c
 
 ## Provenance and limits
 
-Base: DarkFlippers/unleashed-firmware tag `unlshd-095`, commit `9c6327764c18fc8376b5941aa8bde79fe681fe8f`, GPL-3.0. The visual slider reference is documented in NOTICE. This is not an official Unleashed release and is not yet an upstream PR. The kit targets API 88.26; it is not a source reconstruction of the separately installed API 88.27 LTO package.
+Base: DarkFlippers/unleashed-firmware tag `unlshd-095`, commit `9c6327764c18fc8376b5941aa8bde79fe681fe8f`, GPL-3.0. The visual slider reference is documented in NOTICE. This is not an official Unleashed release or the diff of either upstream PR linked below. The kit targets API 88.26; it is not a source reconstruction of the separately installed API 88.27 LTO package.
 
 Host tests, patch application, package/CRC checks and static verification are included. No physical Flipper, qFlipper update, USB/BLE host, endurance or radio test is claimed. Previews are software renders, not device photos.
 
